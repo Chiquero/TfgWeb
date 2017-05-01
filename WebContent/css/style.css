@@ -1,0 +1,319 @@
+/* Original Source: http://meyerweb.com/eric/tools/css/reset/ */html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}body {line-height: 1;}ol, ul {list-style: none;}blockquote, q {quotes:none;}blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}:focus {outline: 0;}ins {text-decoration: none;}del {text-decoration: line-through;}table {border-collapse: collapse;border-spacing: 0;}
+
+body {background:#fff;font-size:75%;font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;font-weight:300;color:#333;margin:0px auto;text-align:center;line-height:1.7em;}
+
+input[type=text], input[type=password], input[type=email], input[type=tel], select, textarea {border:1px solid #ececec;font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;font-weight:300;color:#333;font-size:1em;padding:2px 4px;}
+input[type=text], input[type=password], input[type=email], input[type=tel] {padding:3px;}
+select {padding-right:2px;}
+button {color: #fff;background:#ececec;border:1px solid #ececec;-webkit-box-shadow: inset 0px 1px 0px 0px #f5f5f5;-moz-box-shadow: inset 0px 1px 0px 0px #f5f5f5;
+box-shadow: inset 0px 1px 0px 0px #f5f5f5;line-height:1.7em;padding:0px 10px;font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;font-weight:bold;font-size:1em;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;cursor:pointer;}
+button:hover {color:#0174DF;}
+button.continue {background:#31c7ed;color:#fff;-webkit-box-shadow: inset 0px 0px 0px 0px #ec3ea;-moz-box-shadow: inset 0px 0px 0px 0px #8ec3ea;
+box-shadow: inset 0px 0px 0px 0px #8ec3ea;font-size:1.167em;padding:5px 10px;-webkit-transition:background 1s ease;-moz-transition:background 1s ease;-o-transition:background 1s ease;transition:background 1s ease;}
+button.continue:hover {background:#0174DF;border-color:#0174DF;color:#fff;-webkit-box-shadow: inset 0px 0px 0px 0px #0174DF;-moz-box-shadow: inset 0px 0px 0px 0px #0174DF;
+box-shadow: inset 0px 0px 0px 0px #0174DF;}
+button.continue2 {background:#31c7ed;color:#fff;-webkit-box-shadow: inset 0px 0px 0px 0px #ec3ea;-moz-box-shadow: inset 0px 0px 0px 0px #8ec3ea;
+box-shadow: inset 0px 0px 0px 0px #8ec3ea;font-size:12px;padding:0px 10px;-webkit-transition:background 1s ease;-moz-transition:background 1s ease;-o-transition:background 1s ease;transition:background 1s ease;}
+button.continue2:hover {background:#0174DF;border-color:#0174DF;color:#fff;-webkit-box-shadow: inset 0px 0px 0px 0px #0174DF;-moz-box-shadow: inset 0px 0px 0px 0px #0174DF;
+box-shadow: inset 0px 0px 0px 0px #0174DF;}
+
+a:link, a:visited {color:#ffffff;cursor: pointer;}
+a:hover {text-decoration:none;color:#010387;cursor: pointer;}
+a img {border:none;}
+strong {font-weight:bold;}
+
+.left {float:left;}
+.right {
+	float:right;
+	margin-left: 3px;
+	font-size: 12px;
+	font-style: italic;
+}
+.center {text-align:center;}
+.wrapper {display:block;text-align:left;width:960px;margin:0px auto;cursor: default;}
+.wrapper nav ul ul {top:95px;-webkit-animation: delay .5s;-moz-animation: delay .5s;}
+
+#footer {background:#2772ea;background: rgba(39, 114, 234); color: white;}
+#tabla{margin-left: 120px;}
+
+header {height:95px;position:relative;width:100%;background:#2772ea;background: rgba(39, 114, 234);}
+	header .wrapper {border-bottom:1px solid #ececec;display:inline-block;}
+	#brand {float:left;display:block;width: 175px;height: 200px;background:transparent url(../images/sprite.png) no-repeat -190px 0px;overflow:hidden;text-indent:-999em;margin:-7px 0px 26px;}
+	#brand2 {float:left;display:block;width: 175px;height: 80px;background: transparent url(../images/sprite.png) no-repeat 0px -140px;overflow:hidden;text-indent:-999em;margin:-7px 0px 15px;}
+	nav {float:left;margin:0px 0px 0px 20px;width:765px;}
+		nav ul {margin:0px;padding:}
+		nav li {float:left;list-style:none;position:relative;}
+			nav li a:link, nav li a:visited {text-transform:uppercase;text-decoration:none;padding:45px 17px 30px;float:left;font-family: 'Terminal Dosis', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:1.5em;-webkit-transition:background .5s ease;-moz-transition:background .5s ease;-o-transition:background .5s ease;transition:background .5s ease;}
+			nav li a:hover, nav li a.current {color:#0174DF;background:#fff;}
+		/* subnav */
+		nav ul ul {z-index:20;display:none;position:absolute;top:96px;left:0px;width:160px;z-index:99999 !important;}
+			nav ul ul li {min-width:140px;}
+			nav ul ul ul {left:100%;top:0;}
+			nav ul ul a:link, nav ul ul a:visited {background:#fff;background: rgba(255, 255, 255, 0.9);font-size:1em;border-bottom:1px solid #ececec;width:160px;height:auto;padding:5px 18px;-webkit-transition:background .5s ease;-moz-transition:background .5s ease;-o-transition:background .5s ease;transition:background .5s ease;}
+			nav ul ul li:hover > a, nav ul ul :hover > a {background:#fff;}
+			nav ul li:hover > ul {display:block !important;}
+	
+#top {position:absolute;top:0px;left:0px;height:80px;padding:5px 0px;width:100%;z-index:2;background:#2772ea;-webkit-animation: delay 0.5s;-moz-animation: delay 0.5s;}
+	#top .wrapper {position:relative;}
+	#top form {position:absolute;top:-1px;left:347px;}
+	#top input {float:left;width:200px;}
+	#top button {float:left;-webkit-border-top-left-radius:0px;-webkit-border-bottom-left-radius:0px;-moz-border-radius-topleft:0px;-moz-border-radius-bottomleft:0px;border-top-left-radius:0px;border-bottom-left-radius:0px;width:36px;height:25px;overflow:hidden;text-indent:-999em;background:#ececec url(../images/sprite.png) no-repeat 7px -88px;}
+		#top button:hover {background-position:-83px -88px;}
+#social li {float:left;padding-right:10px;}
+	#social a:link, #social a:visited {display:inline-block;width:24px;height:24px;background:transparent url(../images/sprite.png) no-repeat 0px 0px;overflow:hidden;text-indent:-999em;}
+		#social a:hover {background-position:0px -30px;}
+	#social a.twitter:link, #social a.twitter:visited {background-position:-30px 0px;}
+		#social a.twitter:hover {background-position:-30px -30px;}
+
+#action-bar {line-height:24px;position:absolute;top:0px;right:0px;color:#fff;}
+	#action-bar a:link, #action-bar a:visited {color:#fff;margin:0px 5px;}
+
+article{-webkit-animation: delay 1s;-moz-animation: delay 1s;}
+article {display:block;text-align:left;width:960px;margin:0px auto;clear:both;min-height:400px;}
+	article footer {-webkit-box-shadow:none;-moz-box-shadow: none;box-shadow:none;}
+
+footer {height:116px;margin-top:0;width:100%;display:block;clear:both;padding-top:14px;background:#fff;-webkit-animation: delay 0.5s;-moz-animation: delay 0.5s;-webkit-box-shadow: 0px -10px 30px 0px rgba(180, 160, 145, 0.2);-moz-box-shadow: 0px -10px 30px 0px rgba(180, 160, 145, 0.2);box-shadow: 0px -10px 30px 0px rgba(180, 160, 145, 0.2);}
+	footer .logo {display:block;height:40px;border-bottom:1px solid #ececec;margin:0px 0px 10px;overflow:hidden;text-indent:-999em;background:#fff url(../images/sprite.png) no-repeat 810px -186px}
+	footer a, footer strong {margin-left:10px;}
+
+
+	
+/** Home **/
+body#home {min-height:100%;min-width:100%;overflow:hidden;}
+#home header {z-index:10;border-top:1px solid #fff;border-bottom:1px solid #fff;top:35.6%;left:0;margin-top:0;position:absolute;-webkit-animation: delay 2s;-moz-animation: delay 2s;}
+	#home header .wrapper {border:none;}
+	#home #brand {-webkit-animation: delay 4.5s;-moz-animation: delay 4.5s;}
+	#home #brand2 {-webkit-animation: delay 4.5s;-moz-animation: delay 4.5s;}
+	#home nav {-webkit-animation: delay 5s;-moz-animation: delay 5s;}
+		#home nav ul ul {top:95px;-webkit-animation: delay .5s;-moz-animation: delay .5s;}
+			#home nav ul ul a:link, #home nav ul ul a:visited{border-bottom:1px solid #fff;}
+#home article {float:left;width:100%;text-align:center;}
+#home img {display: block;width:100% !important;}
+#home footer {z-index:17;position:absolute;left:0;bottom:0;}
+
+/*** Product grid ***/
+#breadcrumb {border-bottom:1px solid #ececec;padding:10px 0px;}
+#grid header, #grid footer {height:24px;width:940px;margin:0px;padding:10px;background:#fff;background:#8ec3ea; color:white;margin-bottom:10px;}
+#grid {-webkit-animation: delay 1s;-moz-animation: delay 1s;}
+	#grid footer a {margin:0px;}
+#grid h1 {display:inline;}
+.paging {float:right;line-height:24px;}
+a.hiper:link, a.hiper:visited {color:white;cursor: pointer;}
+a.hiper:hover {text-decoration:none;color:#0174DF;cursor: pointer;}
+
+#items{-webkit-animation: delay 1s;-moz-animation: delay 1s;}
+#items li {float:left;width:172px;padding:10px;height:333px;position:relative;}
+	#items li span {position:absolute;top:20px;right:0px;padding:5px;line-height:normal;text-align:right;color:#fff;background:#ff5454;font-family: 'Terminal Dosis', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;text-transform:uppercase;-webkit-animation: delay 1.5s;-moz-animation: delay 1.5s;}
+	#items a {display:block;text-decoration:none;}
+	#items a.title {height:40px;}
+		#items a img {width:170px;border:1px solid #fff;-webkit-box-shadow:0px 0px 5px 0px rgba(180, 160, 145, 0.2);-moz-box-shadow:0px 0px 5px 0px rgba(180, 160, 145, 0.2);box-shadow:0px 0px 5px 0px rgba(180, 160, 145, 0.2);}
+		#items a:hover img {-webkit-box-shadow:0px 0px 5px 0px rgba(180, 160, 145, 0.8);-moz-box-shadow:0px 0px 5px 0px rgba(180, 160, 145, 0.8);box-shadow:0px 0px 5px 0px rgba(180, 160, 145, 0.8);}
+	#items strong {border-bottom: 1px solid #ececec;display:block;padding-bottom:5px;}
+		#items strong em {float:right;font-weight:normal;font-size:0.833em;}
+
+/*** Main product view ***/
+#mainview #breadcrumb {margin-bottom:10px;}
+#description {float:right;width:500px;}
+	#description h1 {font-family: 'Terminal Dosis', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:2em;font-weight:300;}
+	#description p {padding:0px 0px 14px 0px; text-align:justify}
+	#price {font-size:1.333em;display:block;color:#0174DF;padding:14px 0px;}
+		#price span {color:#333;font-size:0.722em;float:right;}
+	#description select {width:240px;margin-right:10px;}
+	#description .continue {width:240px;margin-right:10px;}
+
+	#images {float:left;width:460px;position:relative;}
+		#images div, #images a {float:left;}
+		#images a img {float:left;border:1px solid #fff;-webkit-box-shadow:0px 0px 5px 0px rgba(180, 160, 145, 0.2);-moz-box-shadow:0px 0px 5px 0px rgba(180, 160, 145, 0.2);box-shadow:0px 0px 5px 0px rgba(180, 160, 145, 0.2);}
+			#images a:hover img {-webkit-box-shadow:0px 0px 5px 0px rgba(180, 160, 145, 0.8);-moz-box-shadow:0px 0px 5px 0px rgba(180, 160, 145, 0.8);box-shadow:0px 0px 5px 0px rgba(180, 160, 145, 0.8);}
+	#images p {background:#fff;padding:5px 0px;margin:0px 20px 10px 0px;width:440px;text-align:center;}
+	#productthumbs a {margin:0px 10px 10px 0px;}
+		#images #productthumbs a img {width:138px;}
+		#images #productthumbs a:hover img {border-color:#fff;}
+	#images .sale {position:absolute;top:20px;right:40px;padding:5px;line-height:normal;text-align:right;color:#fff;background:#ff5454;font-family: 'Terminal Dosis', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;text-transform:uppercase;-webkit-animation: delay 1.5s;-moz-animation: delay 1.5s;}
+	#items a {display:block;text-decoration:none;}
+
+/*
+ * jQuery UI Tabs 1.8.13
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Tabs#theming
+ */
+.ui-tabs {position:relative;padding:0;zoom:1;margin-top:40px;} /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+.ui-tabs .ui-tabs-nav {margin:0;padding:0;}
+.ui-tabs .ui-tabs-nav li {list-style:none;float:left;position:relative;top:1px;margin:0px 0px -1px;padding:0;white-space:nowrap;}
+.ui-tabs .ui-tabs-nav li a {float:left;padding:8px 16px;text-decoration:none;border:1px solid #ececec;border-left:none;font-weight:bold;width:100px;text-align:center;background:#f5f5f5;width:133px;}
+.ui-tabs .ui-tabs-nav li a.first {border:1px solid #ececec;width:134px;}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected {margin-bottom:0;}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a {cursor:text;border-bottom:1px solid #fff;background:#fff;color:#0174DF;}
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel {display:block;border:1px solid #ececec;background:#fff;}
+.ui-tabs .ui-tabs-hide {display:none!important;}
+#tabs section {float:left;clear:left;width:458px;padding:10px 20px;}
+
+/*** View bag ***/
+#basket h1 {font-family: 'Terminal Dosis', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:2em;font-weight:300;padding:20px 0px;}
+#basket .continue {float:right;clear:right;margin:10px 0px;width:200px;}
+table {width:100%;border-bottom:1px solid #ececec;}
+th {background:#f5f5f5;padding:10px;font-size:1.167em;border-top:1px solid #ececec;}
+td {border-top:1px solid #ececec;padding:10px 0px;height:170px;}
+	td button {font-weight:normal;text-transform:uppercase;font-size:0.857em;}
+.description {width:599px;padding-right:10px;}
+th.description {width:589px;}
+	.description img {margin-right:10px;width:100px;}
+	.description p {width:489px;height:130px;}
+	.description p a {font-size:1.167em;width:489px;}
+.options {width:230px;padding:10px;}
+dl {width:230px;height:128px;}
+dt {display:inline-block;width:100px;}
+dd {display:inline-block;width:100px;}
+.price {width:79px;font-size:1.167em;padding:10px;}
+td.description, td.options {border-right:1px dotted #ececec;}
+div.right {font-size:1.167em;padding-top:10px;padding-bottom:30px;width:350px;}
+	div.right strong, div.right select {display:inline-block;width:260px;}
+	div.right em {display:inline-block;font-style:normal;width:80px;text-align:right;}
+	div.right p {border-top:1px solid #ececec;border-bottom:1px solid #ececec;padding:10px 0px;margin:10px 0px;}
+	.safe {float:left;margin:10px 0px;}
+	
+/*** Login ***/
+#login form, #login section {float:left;width:380px;height:200px;margin:40px 0px;padding:49px;border:1px solid #ececec;}
+#login section {border-left:none;background:#f5f5f5;}
+#login{-webkit-animation: delay 1s;-moz-animation: delay 1s;}
+	#login h1, #login h2 {font-family: 'Terminal Dosis', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:2em;font-weight:300;}
+	#login p {margin:16px 0px;}
+	#login form label {display:block;}
+	#login form input {width:210px;}
+	#login form button {float:right;}
+
+/*** Bill & Ship Addresses ***/
+#address form, #address section {float:left;width:380px;height:400px;margin-top:40px; margin-bottom:20px;padding:49px;border:1px solid #ececec;}
+#address #ship {border-left:none;background:#f5f5f5;padding:49px 49px 49px;}
+#addres {-webkit-animation: delay 1s;-moz-animation: delay 1s;}
+	#address h1, #address h2 {font-family: 'Terminal Dosis', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:2em;font-weight:300; padding-bottom:10px}
+	#address p {clear:both;margin:10px 0px;}
+	#address form p {clear:both;margin:10px 0px 0px;}
+	#address label {float:left;width:120px;}
+	#address input[type=text], #address input[type=tel], #address input[type=email] {width:210px;}
+	#address .continue {margin-bottom:20px;width:220px;}
+	#address select{width:218px;}
+.alert {color:#0174DF;padding-left:5px;}
+
+/*** Control animations ***/
+@-webkit-keyframes delay{
+	0%   {opacity:0}
+    40%  {opacity:0}
+    100% {opacity:1}
+}
+@-moz-keyframes delay {
+    0%   {opacity:0}
+    40%  {opacity:0}
+    100% {opacity:1}
+}
+
+/* Olvido su contraseña*/
+#password form, #password section {float:left;width:265px;height:150px;margin:5% 0% 5% 0%;padding:49px;border:1px solid #ececec;}
+#password section {border-left:none;background:#f5f5f5;padding:69px 49px 29px;}
+	#password h1, #password h2 {font-family: 'Terminal Dosis', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:2em;font-weight:500;}
+	#password p {margin:26px 0px;}
+	#password form label {display:block;}
+	#password form input {width:210px; margin-top: 10px;}
+	#password form button {float:right; margin-right: 50px;}
+	
+/* Registro*/	
+#registro form, #registro section {width:450px;height:400px;margin:40px 198px;padding:49px;border:1px solid #ececec;}
+#registro #ship {border-left:none;background:#f5f5f5;padding:79px 49px 19px;}
+	#registro h1, #registro h2 {font-family: 'Terminal Dosis', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:2em;font-weight:300; padding-bottom: 10px;}
+	#registro p {clear:both;margin:10px 0px;}
+	#registro form p {clear:both;margin:10px 0px 0px;}
+	#registro label {float:left;width:120px;}
+	#registro input[type=text], #registro input[type=tel], #registro input[type=email] {width:210px;}
+	#registro .continue {margin-top:10px;width:220px;}
+	#registro select{width:220px;}
+.alert {color:#08088A;padding-left:5px;}
+
+/*Boton editar del carrito*/
+.editar{
+	background:#8ec3ea;
+	color:#fff;
+	-webkit-box-shadow: inset 0px 0px 0px 0px #ec3ea;
+	-moz-box-shadow: inset 0px 0px 0px 0px #8ec3ea;
+	box-shadow: inset 0px 0px 0px 0px #8ec3ea;
+	font-size: 10px;
+	padding:5px 10px;
+	-webkit-transition:background 1s ease;
+	-moz-transition:background 1s ease;
+	-o-transition:background 1s ease;
+	transition:background 1s ease;
+}
+.editar:hover {
+	background:#0174DF;
+	border-color:#0174DF;
+	color:#fff;
+	-webkit-box-shadow: inset 0px 0px 0px 0px #0174DF;
+	-moz-box-shadow: inset 0px 0px 0px 0px #0174DF;
+	box-shadow: inset 0px 0px 0px 0px #0174DF;
+}
+
+/***PROVEEDORES***/
+#proveedores{-webkit-animation: delay 1s;-moz-animation: delay 1s;}
+#proveedores li {float:left;width:172px;padding:10px;height:290px;position:relative;}
+	#proveedores p {height: 110px}
+	#proveedores li span {position:absolute;top:20px;right:0px;padding:5px;line-height:normal;text-align:right;color:#fff;background:#ff5454;font-family: 'Terminal Dosis', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;text-transform:uppercase;-webkit-animation: delay 1.5s;-moz-animation: delay 1.5s;}
+	#proveedores a {display:block;text-decoration:none;}
+	#proveedores a.title {height:40px;}
+	#proveedores a img {width:170px; height: 100px; border:1px solid #fff;-webkit-box-shadow:0px 0px 5px 0px rgba(180, 160, 145, 0.2);-moz-box-shadow:0px 0px 5px 0px rgba(180, 160, 145, 0.2);box-shadow:0px 0px 5px 0px rgba(180, 160, 145, 0.2);}
+	#proveedores a:hover img {-webkit-box-shadow:0px 0px 5px 0px rgba(180, 160, 145, 0.8);-moz-box-shadow:0px 0px 5px 0px rgba(180, 160, 145, 0.8);box-shadow:0px 0px 5px 0px rgba(180, 160, 145, 0.8);}
+	#proveedores strong {border-bottom: 1px solid #ececec;display:block;padding-bottom:5px;}
+	#proveedores strong em {float:right;font-weight:normal;font-size:0.833em;}
+	
+/*Privacidad*/
+#privacidad{-webkit-animation: delay 1s;-moz-animation: delay 1s;}
+	#privacidad{float:left;text-align:justify;margin: 20px 0px;}
+	#privacidad h1 {font-family: 'Terminal Dosis', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:2em;font-weight:300}
+	#privacidad p {padding:0px 0px 14px 0px; text-align:justify}
+	
+/*Conocenos*/
+#conocenos{-webkit-animation: delay 1s;-moz-animation: delay 1s;}
+	#conocenos{float:left;text-align:justify;margin: 20px 0px;}
+	#conocenos h1 {font-family: 'Terminal Dosis', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:2em;font-weight:300;}
+	#conocenos span {width:80%;text-align:justify; float:right}
+	#conocenos p{margin-top:10px}
+	#conocenos div {min-height:150px;margin-bottom:40px;clear:both;} 
+	.imagenConocenos{float:left; width:160px; padding:5px; }
+	
+/*Materiales*/	
+#mainview #materias {min-height:830px;}
+#materias {margin-top:40px;}
+#materias h1 {font-family: 'Terminal Dosis', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:2em;font-weight:300;}
+	#materias span {width:80%;text-align:justify; float:right; margin-bottom:10px;}
+	#materias p{margin-top:10px}
+	#materias li {list-style-type:square; margin-left:4%;}
+	#materias div {min-height:160px;margin-bottom:40px;clear:both;} 
+	.imagenMaterias{float:left; width:110px; padding:5px 20px; vertical-align: middle;}
+	
+/*Envios*/
+#descriptionEnvios{-webkit-animation: delay 1s;-moz-animation: delay 1s;}
+#descriptionEnvios{float:left;width:100%;text-align:justify;margin: 20px 0px;}
+	#descriptionEnvios h1 {font-family: 'Terminal Dosis', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:2em;font-weight:300;}
+	#descriptionEnvios p {padding:0px 0px 14px 0px;}
+	
+/*Compra*/
+#atras.continue{float:left;}
+#atrasCarrito.continue{float:left; visibility:hidden; display:none;}
+#continuar.continue{float:right;}
+#comprar.continue{float:right; visibility:hidden; display:none;}
+#address #fantasma {visibility: hidden;display: none; border-left:none;padding:49px 49px 49px; height:400px;-webkit-animation: delay 1s;-moz-animation: delay 1s;}
+#fantasma span{font-size:16px;}
+#fantasma label{width:105px;}
+#fantasma select{margin-top:0px;}
+#fantasma hr {display: block; margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 59px; margin-right: auto; border-style: inset; border-width: 1px; color:#ececec;}
+
+
+
+
+
+
+
+
